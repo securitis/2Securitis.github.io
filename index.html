@@ -4,40 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>End-to-End Security Solutions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>End-to-End Security Solutions</h1>
-        <nav>
-            <ul>
-                <li><a href="#sast">SAST</a></li>
-                <li><a href="#dast">DAST</a></li>
-                <li><a href="#cicd">CICD</a></li>
-                <li><a href="#container-security">Container Security</a></li>
-            </ul>
+    <header class="bg-dark text-white text-center py-5">
+        <h1 class="display-4">End-to-End Security Solutions</h1>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#intro">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sast">SAST</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#dast">DAST</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cicd">CICD</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#container-security">Container Security</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    <main>
-        <section id="sast">
+    <main class="container my-5">
+        <section id="intro" class="text-center">
+            <h2 class="mb-4">Welcome to My Security Solutions Site</h2>
+            <img src="myimage.jpg" alt="My Image" class="img-fluid rounded-circle mb-4" style="max-width: 200px;">
+            <p class="lead">Hi, I'm [Your Name], and I specialize in providing comprehensive security solutions for your applications. With expertise in Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), Continuous Integration/Continuous Deployment (CICD), and Container Security, I ensure your software is robust and secure.</p>
+        </section>
+        <section id="sast" class="my-5">
             <h2>Static Application Security Testing (SAST)</h2>
             <p>SAST is a method of testing the source code for vulnerabilities without executing it. It helps in identifying potential security flaws in the early stages of development.</p>
         </section>
-        <section id="dast">
+        <section id="dast" class="my-5">
             <h2>Dynamic Application Security Testing (DAST)</h2>
             <p>DAST is a method of testing the application in its running state to identify security vulnerabilities. It simulates external attacks on an application to find vulnerabilities that could be exploited.</p>
         </section>
-        <section id="cicd">
+        <section id="cicd" class="my-5">
             <h2>Continuous Integration/Continuous Deployment (CICD)</h2>
             <p>CICD involves integrating and deploying code changes frequently and automatically. Security measures are integrated into the CICD pipeline to ensure secure code delivery.</p>
         </section>
-        <section id="container-security">
+        <section id="container-security" class="my-5">
             <h2>Container Security</h2>
             <p>Container security involves securing containerized applications and their environments. It includes measures such as image scanning, runtime protection, and configuration management.</p>
         </section>
     </main>
-    <footer>
+    <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 End-to-End Security Solutions</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
