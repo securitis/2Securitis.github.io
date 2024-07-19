@@ -10,39 +10,48 @@
 <body>
     <header class="bg-dark text-white text-center py-5">
         <h1 class="display-4">Container Security</h1>
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav">
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="index.html">
+                                Home
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sast.html">SAST</a>
+                            <a class="nav-link" href="sast.html">
+                                SAST
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="dast.html">DAST</a>
+                            <a class="nav-link" href="dast.html">
+                                DAST
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="cicd.html">CICD</a>
+                            <a class="nav-link" href="cicd.html">
+                                CICD
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="container-security.html">Container Security</a>
+                            <a class="nav-link active" href="container-security.html">
+                                Container Security
+                            </a>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <main class="container my-5">
-        <section id="container-security" class="text-center">
-            <h2 class="mb-4">Container Security</h2>
-            <p>Container security involves securing containerized applications and their environments. It includes measures such as image scanning, runtime protection, and configuration management.</p>
-        </section>
-    </main>
+            </nav>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+                <section id="container-security" class="text-center my-5">
+                    <h2 class="mb-4">Container Security</h2>
+                    <p>Container Security focuses on protecting containerized applications and the underlying infrastructure. It involves securing the container images, runtime, and orchestration environments to prevent potential security threats.</p>
+                </section>
+            </main>
+        </div>
+    </div>
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 End-to-End Security Solutions</p>
     </footer>
