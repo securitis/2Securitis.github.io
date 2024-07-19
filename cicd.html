@@ -10,39 +10,48 @@
 <body>
     <header class="bg-dark text-white text-center py-5">
         <h1 class="display-4">Continuous Integration/Continuous Deployment (CICD)</h1>
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav">
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="index.html">
+                                Home
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sast.html">SAST</a>
+                            <a class="nav-link" href="sast.html">
+                                SAST
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="dast.html">DAST</a>
+                            <a class="nav-link" href="dast.html">
+                                DAST
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="cicd.html">CICD</a>
+                            <a class="nav-link active" href="cicd.html">
+                                CICD
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="container-security.html">Container Security</a>
+                            <a class="nav-link" href="container-security.html">
+                                Container Security
+                            </a>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <main class="container my-5">
-        <section id="cicd" class="text-center">
-            <h2 class="mb-4">Continuous Integration/Continuous Deployment (CICD)</h2>
-            <p>CICD involves integrating and deploying code changes frequently and automatically. Security measures are integrated into the CICD pipeline to ensure secure code delivery.</p>
-        </section>
-    </main>
+            </nav>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+                <section id="cicd" class="text-center my-5">
+                    <h2 class="mb-4">Continuous Integration/Continuous Deployment (CICD)</h2>
+                    <p>CICD is a practice that automates the integration of code changes from multiple contributors into a shared project several times a day. It helps in automating the deployment process, ensuring faster and reliable software releases.</p>
+                </section>
+            </main>
+        </div>
+    </div>
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 End-to-End Security Solutions</p>
     </footer>
